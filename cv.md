@@ -162,3 +162,6 @@
 		
 	КонецПроцедуры
    ```
+   6. I carried out course and diploma projects for university students on the course microprocessor systems (access control systems, security alarms, parameter monitoring systems). Modified the configuration of 1C "Trade Management" for customers.
+7. Belarusian State University of Informatics and Radioelectronics, Belarusian State Economic University, Continuous self-education.
+8. Pre-intermediate. Previously I took some courses, currently I'm engaged in self-education, in the future I plan to go on the English courses.
