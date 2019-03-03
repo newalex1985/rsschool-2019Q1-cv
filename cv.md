@@ -1,7 +1,7 @@
 1. *Aliaksandr, Konan*
 2. Minsk, **Belarus**
-3. Hello, my name is Aliaksandr Konan. My goal is to study JS. I like to solve technical problems. I set goals for myself and put the maximum amount of effort to achieve of it. Solving complex problems, continuous self-development gives me pleasure and allows me to find self-realization in life
-4. 1C Development. C, Asm for embedded systems
+3. Hello, my name is Aliaksandr Konan. My goal is to study JS. I like to solve technical problems. I set goals for myself and put the maximum amount of effort to achieve of it. Solving complex problems, continuous self-development gives me pleasure and allows me to find self-realization in life.
+4. *1C Development*. *C*, *Asm* for embedded systems.
 5. ```
 	Процедура ОбработкаПроведения(Отказ, Режим)
 
@@ -162,6 +162,6 @@
 		
 	КонецПроцедуры
    ```
-   6. I carried out course and diploma projects for university students on the course microprocessor systems (access control systems, security alarms, parameter monitoring systems). Modified the configuration of 1C "Trade Management" for customers.
-7. Belarusian State University of Informatics and Radioelectronics, Belarusian State Economic University, Continuous self-education.
-8. Pre-intermediate. Previously I took some courses, currently I'm engaged in self-education, in the future I plan to go on the English courses.
+6. I carried out course and diploma projects for university students on the course microprocessor systems (access control systems, security alarms, parameter monitoring systems). Modified the configuration of 1C "Trade Management" for customers.
+7. **Belarusian State University of Informatics and Radioelectronics**, **Belarusian State Economic University, Continuous self-education**.
+8. **Pre-intermediate**. Previously I took some courses, currently I'm engaged in self-education, in the future I plan to go on the English courses.
