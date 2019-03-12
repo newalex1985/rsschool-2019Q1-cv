@@ -27,6 +27,13 @@ header {
 	padding: 0 0 35px 0;
 }
 
+header img {
+	border-radius: 50%;
+	float: left;
+	margin: 8px 0 -10px 0;
+	width: 15%;
+}
+
 header ul {
 	float: right;
 	list-style: none;
