@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Konan Alexander cv</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="block">
+      <h1>Konan Aliaksandr</h1>
+      <img src="photo.jpg" alt="Konan Aliaksandr">
+      <ul>
+        <li><a href="mailto:newalex1985@tut.by">email: newalex1985@tut.by</a></li>
+        <li><a href="tel:375295742329">phone: +375-29-574-23-29</a></li>
+        <li><a href="skype:+ganoffbala?call">skype: ganoffbala</a></li>
+        <li><a href="https://goo.gl/maps/L5cxQzdR5PT2" target="_blank">location: Minsk, Belarus</a></li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <section class="summary">
+      <h2>Summary</h2>
+      <div class="block">
+        <p class="summary-text">
+          Hello, my name is Aliaksandr Konan. My goal is to study JS. I like to solve technical problems. I set goals
+          for myself and put the maximum amount of effort to achieve of it. Solving complex problems, continuous
+          self-development gives me pleasure and allows me to find self-realization in life.
+        </p>
+      </div>
+    </section>
+    <section class="skills">
+      <div class="block">
+        <h2>My Skills</h2>
+        <ul>
+          <li>1C Development</li>
+          <li>C/C++</li>
+          <li>Asm for embedded systems</li>
+        </ul>
+      </div>
+    </section>
+    <section class="code">
+      <div class="block">
+        <h2>Code examples</h2>
+        <pre>
+        	<code>
+module.exports = function getLoveTrianglesCount(preferences = []) {
+
+  if (preferences.length == 0) {
+    return 0;
+  }
+
+  var exludedNum = [];
+  var count = 0;
+
+  for (var i = 0; i < preferences.length; i++) {
+
+    if (exludedNum.indexOf(preferences[i]) != -1) {
+      continue;
+    }
+
+    if (preferences[i] == (i + 1)) {
+      exludedNum.push(preferences[i]);
+      continue;
+    }
+
+    if ((preferences[preferences[preferences[i] - 1] - 1] - 1) == i) {
+      count ++;
+      exludedNum.push(preferences[i]);
+      exludedNum.push(preferences[preferences[i] - 1]);
+      exludedNum.push(preferences[preferences[preferences[i] - 1] - 1]);
+    }
+  }
+  return count;
+}         </code>
+        </pre>
+      </div>
+    </section>
+    <section class="experience">
+      <div class="block">
+        <h2>My Experience</h2>
+        <p>
+          I carried out course and diploma projects for university students on the course microprocessor systems (access
+          control systems, security alarms, parameter monitoring systems). Modified the configuration of 1C “Trade
+          Management” for customers.
+        </p>
+      </div>
+    </section>
+    <section class="education">
+      <div class="block">
+        <h2>Education</h2>
+        <p>Belarusian State University of Informatics and Radioelectronics, Belarusian State Economic University,
+          Continuous self-education.</p>
+      </div>
+    </section>
+    <section class="english">
+      <div class="block">
+        <h2>English</h2>
+        <p><b>Pre-intermediate.</b> Previously I took some courses, currently I’m engaged in self-education, in the
+          future I plan to go on the English courses.</p>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
